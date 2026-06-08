@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Yum's Studio</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f8f5ff;
+}
+
+header{
+    background:white;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+
+.logo{
+    height:70px;
+}
+
+nav a{
+    text-decoration:none;
+    margin-left:20px;
+    color:#6d28d9;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    padding:70px 20px;
+    background:linear-gradient(
+    135deg,
+    #ede9fe,
+    #f5f3ff
+    );
+}
+
+.hero h1{
+    font-size:48px;
+    color:#6d28d9;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    color:#555;
+    max-width:700px;
+    margin:auto;
+}
+
+.imagenes-principales{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.imagenes-principales img{
+    width:250px;
+    max-width:100%;
+}
+
+.servicios{
+    padding:60px 20px;
+}
+
+.servicios h2{
+    text-align:center;
+    color:#6d28d9;
+    margin-bottom:40px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:280px;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+.card h3{
+    color:#6d28d9;
+    margin-bottom:10px;
+}
+
+footer{
+    background:#6d28d9;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+    gap:15px;
+}
+
+nav{
+    text-align:center;
+}
+
+.imagenes-principales{
+    flex-direction:column;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div>
+<img src="YUMS.png" class="logo">
+<img src="LIBRERIA.png" class="logo">
+</div>
+
+<nav>
+<a href="#">Inicio</a>
+<a href="#">Servicios</a>
+<a href="#">Contacto</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Yum's Studio</h1>
+
+<p>
+Bienvenidos a mi página web.
+Estamos realizando pruebas con HTML, CSS y GitHub Pages.
+</p>
+
+<div class="imagenes-principales">
+    <img src="YUMS.png" alt="Yum's Studio">
+    <img src="LIBRERIA.png" alt="Librería Yumara">
+</div>
+
+</section>
+
+<section class="servicios">
+
+<h2>Nuestros Servicios</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3> Librería y Papelería</h3>
+<p>Todo lo encuentras aquí.</p>
+</div>
+
+<div class="card">
+<h3> Manualidades</h3>
+<p>Arte hecho con las manos y mucha creatividad.</p>
+</div>
+
+<div class="card">
+<h3>Contacto</h3>
+<p>Cel: 73463166</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Yum's Studio</p>
+
+</footer>
+
+</body>
+
+</html>
